@@ -1,0 +1,16 @@
+name: "Strip Markdown"
+author: "koistya"
+description: "Removes Markdown formatting from a string of text."
+branding:
+  color: "green"
+  icon: "align-justify"
+inputs:
+  content:
+    description: "Markdown content"
+    required: true
+outputs:
+  content:
+    description: "Plain text output"
+runs:
+  using: "node20"
+  main: "index.js"
